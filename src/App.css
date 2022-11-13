@@ -1,9 +1,19 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-wrap: break-word;
+    justify-content: flex-start;
+}
 
+.App.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .BakeryItem {
-  
+    margin: 10vh;
 }
